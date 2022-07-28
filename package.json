@@ -1,0 +1,21 @@
+{
+  "name": "tools.js",
+  "version": "0.0.1",
+  "description": "js工具方法库",
+  "main": "index.js",
+  "repository": "https://github.com/374644043/tools.js.git",
+  "author": "pangwei <pw374644043@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-jest": "^28.1.3",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.3"
+  }
+}
