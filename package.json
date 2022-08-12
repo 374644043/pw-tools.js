@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "js工具方法库",
   "main": "index.js",
+  "files": ["lib", "types"],
+  "typings": "index.d.ts",
   "repository": "https://github.com/374644043/tools.js.git",
   "author": "pangwei <pw374644043@gmail.com>",
   "license": "MIT",
