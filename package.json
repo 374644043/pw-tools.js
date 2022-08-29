@@ -1,10 +1,10 @@
 {
   "name": "pw-tools.js",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "个人自用js工具方法库，支持ts引用",
   "main": "index.js",
   "files": ["lib", "types"],
-  "typings": "index.d.ts",
+  "typings": "types/index.d.ts",
   "repository": "https://github.com/374644043/pw-tools.js.git",
   "author": "pangwei <pw374644043@gmail.com>",
   "license": "MIT",
