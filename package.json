@@ -3,20 +3,26 @@
   "version": "1.0.0-alpha.1",
   "description": "个人自用js工具方法库，支持ts引用",
   "main": "index.ts",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/374644043/pw-tools.js.git",
   "author": "pangwei <pw374644043@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint lib --fix --ext .ts,.js"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
     "babel-jest": "^28.1.3",
     "eslint": ">=5.16.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^28.1.3"
+    "jest": "^28.1.3",
+    "typescript": "^5.2.2"
   }
 }

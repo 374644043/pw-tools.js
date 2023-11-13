@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "semi": [
+      2,
+      "never",
+      {
+        "beforeStatementContinuationChars": "never"
+      }
+    ],
+    "comma-dangle": ["error", "always-multiline"],
+    "@typescript-eslint/no-explicit-any": "warn"
+  }
+}
