@@ -2,10 +2,10 @@
  * @Author: pangwei pw374644043@gmail.com
  * @Date: 2023-10-30 14:41:43
  * @LastEditors: pangwei pw374644043@gmail.com
- * @LastEditTime: 2023-10-30 15:09:00
+ * @LastEditTime: 2023-11-14 13:29:02
  */
 const uniqueArr = <T>(arr: T[], uniqueKey?: keyof T) => {
-  if (arr.some(Object.prototype.isPrototypeOf)) {
+  if (arr instanceof Object) {
     if (uniqueKey === undefined) {
       throw new Error("uniqueArr need uniqueKey when arr has object child")
     }
