@@ -2,7 +2,7 @@
  * @Author: pangwei pw374644043@gmail.com
  * @Date: 2023-10-30 14:41:43
  * @LastEditors: pangwei pw374644043@gmail.com
- * @LastEditTime: 2023-11-14 13:29:02
+ * @LastEditTime: 2023-11-20 10:45:26
  */
 const uniqueArr = <T>(arr: T[], uniqueKey?: keyof T) => {
   if (arr instanceof Object) {
@@ -19,7 +19,7 @@ const uniqueArr = <T>(arr: T[], uniqueKey?: keyof T) => {
     })
     return result
   } else {
-    return Array.from(new Set(arr))
+    return Array.from(new Set<T>(arr))
   }
 }
 
