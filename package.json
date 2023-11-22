@@ -1,6 +1,6 @@
 {
   "name": "pw-tools.js",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "description": "个人自用js工具方法库，支持ts引用",
   "main": "index.ts",
   "files": [
